@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px #F6F6F6 solid;
+}
+
+.leftContent{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    cursor: pointer;
+}
+
+.logoText{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+}
+
+.descrip{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.rigthContent{
+    display: flex;
+    background: #FE5F1E;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+
+    .content{
+        margin: 15px auto 0;
+
+        .size{
+            padding-right: 13px;
+            margin-right: 5px;
+            border-right: 1px rgba(255, 255, 255, 0.25) solid;
+        }
+
+        span{
+            color: white;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            
+        }
+
+        img{
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+        } 
+    }
+
+
+}
